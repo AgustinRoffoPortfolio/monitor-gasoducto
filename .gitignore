@@ -1,0 +1,52 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# === Entornos virtuales ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Datos ===
+# Por defecto, todo lo que esté en data/ se ignora.
+# Si queremos versionar un archivo específico (ej. un CSV sintético de ejemplo),
+# lo agregamos con "git add -f" o lo desexcluimos acá explícitamente.
+data/*
+!data/.gitkeep
+!data/README.md
+
+# === Streamlit ===
+.streamlit/secrets.toml
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Sistema ===
+Thumbs.db
+.DS_Store
+
+# === Credenciales y configs locales ===
+.env
+.env.local
+*.pem
+*.key
