@@ -1,6 +1,6 @@
-pandas
-numpy
-scipy
-matplotlib
-jupyter
-ipykernel
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+jupyter==1.1.1
+ipykernel==7.2.0
